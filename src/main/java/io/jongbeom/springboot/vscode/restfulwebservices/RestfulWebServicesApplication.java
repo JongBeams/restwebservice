@@ -1,13 +1,13 @@
-package io.jongbeom.springboot.intellij.restfulwebservices;
+package io.jongbeom.springboot.vscode.restfulwebservices;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RestfulWebSnsServicesApplication {
+public class RestfulWebServicesApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RestfulWebSnsServicesApplication.class, args);
+        SpringApplication.run(RestfulWebServicesApplication.class, args);
     }
 
 }
