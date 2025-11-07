@@ -1,4 +1,4 @@
-package io.jongbeom.springboot.intellij.restfulwebservices.user;
+package io.jongbeom.springboot.vscode.restfulwebservices.user;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

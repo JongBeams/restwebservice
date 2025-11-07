@@ -1,15 +1,14 @@
-package io.jongbeom.springboot.intellij.restfulwebservices.user;
+package io.jongbeom.springboot.vscode.restfulwebservices.user;
 
-//WebMvcLinkBuilder에 있는 모든 메소드에 대한 정적 임포트
-
-import io.jongbeom.springboot.intellij.restfulwebservices.jpa.PostRepository;
-import io.jongbeom.springboot.intellij.restfulwebservices.jpa.UserRepository;
 import jakarta.validation.Valid;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
+
+import io.jongbeom.springboot.vscode.restfulwebservices.jpa.PostRepository;
+import io.jongbeom.springboot.vscode.restfulwebservices.jpa.UserRepository;
 
 import java.net.URI;
 import java.util.List;

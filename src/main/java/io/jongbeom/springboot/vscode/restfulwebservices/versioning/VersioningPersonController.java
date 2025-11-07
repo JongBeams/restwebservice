@@ -1,4 +1,4 @@
-package io.jongbeom.springboot.intellij.restfulwebservices.versioning;
+package io.jongbeom.springboot.vscode.restfulwebservices.versioning;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package io.jongbeom.springboot.intellij.restfulwebservices.exception;
+package io.jongbeom.springboot.vscode.restfulwebservices.exception;
 
 import java.time.LocalDateTime;
 

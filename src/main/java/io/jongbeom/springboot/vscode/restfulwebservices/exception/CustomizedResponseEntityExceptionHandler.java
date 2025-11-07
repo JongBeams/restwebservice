@@ -1,6 +1,5 @@
-package io.jongbeom.springboot.intellij.restfulwebservices.exception;
+package io.jongbeom.springboot.vscode.restfulwebservices.exception;
 
-import io.jongbeom.springboot.intellij.restfulwebservices.user.UserNotFoundException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
@@ -10,6 +9,8 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+
+import io.jongbeom.springboot.vscode.restfulwebservices.user.UserNotFoundException;
 
 import java.time.LocalDateTime;
 

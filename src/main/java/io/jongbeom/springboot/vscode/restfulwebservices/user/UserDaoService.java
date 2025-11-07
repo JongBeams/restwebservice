@@ -1,4 +1,4 @@
-package io.jongbeom.springboot.intellij.restfulwebservices.user;
+package io.jongbeom.springboot.vscode.restfulwebservices.user;
 
 import org.springframework.stereotype.Component;
 

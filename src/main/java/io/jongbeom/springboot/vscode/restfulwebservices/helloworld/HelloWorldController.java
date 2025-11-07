@@ -1,5 +1,4 @@
-package io.jongbeom.springboot.intellij.restfulwebservices.helloworld;
-
+package io.jongbeom.springboot.vscode.restfulwebservices.helloworld;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;
@@ -18,10 +17,16 @@ public class HelloWorldController {
         this.messageSource =messageSource;
     }
 
+
+    @GetMapping(path = "/basicauth")
+    public String basicAuthCheck(){
+        return "Success";
+    }
+
     //@RequestMapping(method = RequestMethod.GET,path = "/hello-world")   //path : value와 같음(최신버전이 path)
     @GetMapping(path = "/hello-world") //@GetMapping 사용 시 method = RequestMethod.GET 지정할 필요 없다
     public String helloWorld(){
-        return "Hello World";
+        return "Hello World hello";
     }
 
 

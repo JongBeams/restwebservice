@@ -1,4 +1,4 @@
-package io.jongbeom.springboot.intellij.restfulwebservices.versioning;
+package io.jongbeom.springboot.vscode.restfulwebservices.versioning;
 
 public class Name {
     private String firstName;

@@ -1,7 +1,8 @@
-package io.jongbeom.springboot.intellij.restfulwebservices.jpa;
+package io.jongbeom.springboot.vscode.restfulwebservices.jpa;
 
-import io.jongbeom.springboot.intellij.restfulwebservices.user.Post;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import io.jongbeom.springboot.vscode.restfulwebservices.user.Post;
 
 public interface PostRepository extends JpaRepository<Post,Integer> {
 }

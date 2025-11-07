@@ -1,4 +1,4 @@
-package io.jongbeom.springboot.intellij.restfulwebservices.user;
+package io.jongbeom.springboot.vscode.restfulwebservices.user;
 
 //WebMvcLinkBuilder에 있는 모든 메소드에 대한 정적 임포트
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;

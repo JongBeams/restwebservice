@@ -1,4 +1,4 @@
-package io.jongbeom.springboot.intellij.restfulwebservices.filitering;
+package io.jongbeom.springboot.vscode.restfulwebservices.filitering;
 
 
 import com.fasterxml.jackson.databind.ser.FilterProvider;

@@ -1,4 +1,4 @@
-package io.jongbeom.springboot.intellij.restfulwebservices.helloworld;
+package io.jongbeom.springboot.vscode.restfulwebservices.helloworld;
 
 public class HelloWorldBean {
 
