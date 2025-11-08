@@ -41,11 +41,12 @@ public class HelloWorldController {
     // /hello-world/path-variable/{name}
     // /hello-world/path-varialbe/Ranga
 
-
+    
     @GetMapping(path = "/hello-world/path-variable/{name}") //@GetMapping 사용 시 method = RequestMethod.GET 지정할 필요 없다
     public HelloWorldBean helloWorldPathVariable(@PathVariable String name){
         return new HelloWorldBean(String.format("Hello World,%s",name));
     }
+
 
     @GetMapping(path = "/hello-world-Internationalized") //@GetMapping 사용 시 method = RequestMethod.GET 지정할 필요 없다
     public String helloWorldInternationalized(){
